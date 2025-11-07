@@ -3,61 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 2</title>
-
-    <!-- internal css -->
-    <style>
-        h2 {
-            color: blue;
-            text-align: center;
-        }
-    </style>
-
-    <!-- 
-        external css
-        what are the benefits of external css?
-        - It helps to keep the HTML file clean and organized.
-        - It allows for easier maintenance and updates since styles are in a separate file.
-        - It enables reusability of styles across multiple HTML files.
-    -->
-    <link rel="stylesheet" href="mycss.css">
-
-    <!-- 
-        Some people usually use external; there is no way I see external CSS was formed 
-        was because of the rise of something we call a design system. So if you know what 
-        a design system is, then you will be good at what you call CSS, especially external CSS.
-        So that is what I'm going to introduce you to. Before I go deep into external CSS, 
-        just give me a few brief five minutes; I will show you what a design system is. So brace for impact.
-
-        https://m3.material.io/get-started
-    -->
+    <title>Lesson 3</title>
 </head>
 <body>
-    <!-- inline style  -->
-    <h1 style="color: rgb(255, 128, 0); text-align: center;">Today we learn about CSS</h1>
+    
+    <!-- <h2 id="hello"></h2> -->
 
-    <h2>This is an example of internal css</h2>
+    <h1 id="title"></h1>
+    <h2 id="author"></h2>
+    <h3 id="content"></h3>
 
-    <div class="card">
-        
-        <img src="image.jpg" alt="this is card image">
 
-        <h2 id="card-title">This is a card title</h2>
+    <!-- internal javascript -->
+    <script>
+        document.getElementById("hello").innerHTML = "Hello World!";
+    </script>
 
-        <p class="card-description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto mollitia 
-            dolores quae molestiae, magni aliquam dolor. Doloremque porro incidunt nemo,
-            hic sequi, ut reiciendis dolores, assumenda asperiores veniam molestiae id.
-        </p>
-    </div>
-
+    <!-- external javascript -->
+    <script src="script.js"></script>
 
 </body>
 </html>
-
-<!-- 
-So, we are trying to learn HTML, CSS, and JavaScript. So, today's lesson 
-we are going to be talking about different kinds of CSS.
-We are going to be discussing inline CSS, external CSS, and internal CSS. So,
-we will focus on inline CSS, external CSS, and internal CSS in relation to HTML and CSS.
---> 
