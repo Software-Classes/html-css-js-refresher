@@ -1,99 +1,63 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="James Nyakundi">
-        <meta name="description" content="This is a sample HTML document created by Jame Nyakundi.">
-        <meta name="keywords" content="Banking, Investment, Wealth managment   sample, document, James Nyakundi">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2</title>
 
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <title>i3 Banking</title>
+    <!-- internal css -->
+    <style>
+        h2 {
+            color: blue;
+            text-align: center;
+        }
+    </style>
 
-        //link to external CSS file
-    </head>
+    <!-- 
+        external css
+        what are the benefits of external css?
+        - It helps to keep the HTML file clean and organized.
+        - It allows for easier maintenance and updates since styles are in a separate file.
+        - It enables reusability of styles across multiple HTML files.
+    -->
+    <link rel="stylesheet" href="mycss.css">
 
-    <body>
-        <!-- H tags for headings they range from H1 to H6 -->
-        <h1>Welcome to i3 Banking</h1>
-        <h2>Your Trusted Financial Partner</h2>
-        <h3>Secure. Reliable. Innovative.</h3>
-        <h4>Join Us Today!</h4>
-        <h5>Contact Us for More Information</h5>
-        <h6>Follow Us on Social Media</h6>
+    <!-- 
+        Some people usually use external; there is no way I see external CSS was formed 
+        was because of the rise of something we call a design system. So if you know what 
+        a design system is, then you will be good at what you call CSS, especially external CSS.
+        So that is what I'm going to introduce you to. Before I go deep into external CSS, 
+        just give me a few brief five minutes; I will show you what a design system is. So brace for impact.
 
-         <!-- P tag for paragraphs -->
-        <p>
-            At <strong>i3 Banking</strong>, <u>we are committed to providing our customers</u>
-            with <i>top-notch financial services tailored to their needs.</i>
-            Our team of experts <br/> is here to help you achieve your financial goals.
+        https://m3.material.io/get-started
+    -->
+</head>
+<body>
+    <!-- inline style  -->
+    <h1 style="color: rgb(255, 128, 0); text-align: center;">Today we learn about CSS</h1>
+
+    <h2>This is an example of internal css</h2>
+
+    <div class="card">
+        
+        <img src="image.jpg" alt="this is card image">
+
+        <h2 id="card-title">This is a card title</h2>
+
+        <p class="card-description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto mollitia 
+            dolores quae molestiae, magni aliquam dolor. Doloremque porro incidunt nemo,
+            hic sequi, ut reiciendis dolores, assumenda asperiores veniam molestiae id.
         </p>
-        <!-- this is my first serious comment -->
-
-        <!-- this is how to create an image -->
-        <img src="image.jpg" alt="Description of image">
-        <!-- <img src="https://youthtimemag.com/wp-content/uploads/2022/08/shutterstock_1900200964.png"
-         alt="Description of image 2"> -->
-
-         
-         <!-- Lists- there are 2 different types of lists  ordered and unordered -->
-            <ul>
-                <li>Unordered List Item <b>1</b></li>
-                <li>Unordered List Item 2</li>
-                <li>Unordered List Item 3</li>
-            </ul>
-
-            <ol>
-                <li>Ordered List Item 1</li>
-                <li>Ordered List Item 2</li>
-                <li>Ordered List Item 3</li>
-            </ol>
-
-            <!-- tables  -->
-            <table border="1">
-                <tr>
-                    <th>Account Type</th>
-                    <th>Interest Rate</th>
-                    <th>Minimum Balance</th>
-                </tr>
+    </div>
 
 
-                <tr>
-                    <td>Savings Account</td>
-                    <td>1.5%</td>
-                    <td>$100</td>
-                </tr>
-
-                <tr>
-                    <td>Checking Account</td>
-                    <td>0.5%</td>
-                    <td>$50</td>
-                </tr>
-                <tr>
-                    <td>Investment Account</td>
-                    <td>3.0%</td>
-                    <td>$500</td>
-                </tr>
-            </table>
-
-            <!-- form  -->
-             <form action="" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="account-type">Account Type:</label>
-
-                <select id="account-type" name="account-type">
-                    <option value="savings">Savings Account</option>
-                    <option value="checking">Checking Account</option>
-                    <option value="investment">Investment Account</option>
-                </select><br><br>
-
-                <input type="submit" value="Submit">
-                <button type="reset">Reset</button>
-             </form>
-    </body>
+</body>
 </html>
+
+<!-- 
+So, we are trying to learn HTML, CSS, and JavaScript. So, today's lesson 
+we are going to be talking about different kinds of CSS.
+We are going to be discussing inline CSS, external CSS, and internal CSS. So,
+we will focus on inline CSS, external CSS, and internal CSS in relation to HTML and CSS.
+--> 

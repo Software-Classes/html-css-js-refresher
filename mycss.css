@@ -1,0 +1,92 @@
+h1 {
+  color: rgb(140, 0, 255);
+  text-emphasis: none;
+  text-decoration: underline;
+}
+ /* 
+ 
+  h1 - selector
+  {
+    color - property
+    rgb(140, 0, 255) - value
+  }
+    u can use  html elements as selectors in css
+    for example, you can use div, p, img, etc.
+     
+    u can also use class and id as selectors in css
+    for example, .class-name, #id-name
+ 
+ */
+
+ /* div {
+  background-color: rgb(200, 200, 200);
+  padding: 10px;
+  border: 2px solid black;
+ } */
+
+ .card {
+    width: 300px;
+    background:#ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+ }
+
+ .card img {
+    width: 100%;
+    height: auto;
+ }
+
+ #card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 0;
+    color: chocolate;
+ }
+
+ .card-description {
+    font-size: 16px;
+    color: #555555;
+    margin: 0 16px 16px 16px;
+    padding: 0 15px 20px;
+ }
+
+ /* 
+  when it comes to web size responsiveness, we use media queries in css
+
+  px - pixels
+  em - relative to the font-size of the element
+  rem - relative to font-size of the root element
+  vh - relative to 1% of the height of the viewport
+  vw - relative to 1% of the width of the viewport
+
+  when it comes to mobile development we use dp - density-independent pixels
+  1 dp = 1 pixel on a 160 dpi screen
+
+  for text in mobile 
+    sp - scale-independent pixels
+
+ */
+
+ /* 
+  all this css frameworks are used to make web development easier and faster
+  they provide pre-defined styles and components that can be used to build web pages quickly
+  some popular css frameworks are:
+    1. Bootstrap
+    2. Tailwind CSS
+    3. Bulma
+    4. Foundation
+    5. Materialize
+    6. Semantic UI
+    7. UIkit
+    8. Pure.css
+    9. Skeleton
+
+    they usually use 2 concepts 
+      1. grid system
+      2. pre-defined components
+      3. utility classes
+      4. flexbox and css grid
+ 
+ */
